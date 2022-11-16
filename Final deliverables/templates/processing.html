@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition analyzer</title>
+</head>
+<body style="background-image: url('static/images/bg4.jpg');background-size:cover;background-attachment:fixed">
+    <div style="margin-left:30px">
+    <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif,text-align;">Nutrition analyzer</h1>
+    
+    <img src="static\images\{{filename}}" alt="Image of selected fruit" width="200" height="200" style="border: 5px solid rgb(51, 7, 7);">
+    
+    <h2>Predicted image :{{answer}}</h2>
+    
+    <h2>The nutrition content in {{answer}} are</h2>
+    <h3>Name:{{ name }}</h3>
+    <h3>Calories:{{ calories }}</h3>
+    <h3>Fiber:{{ fiber }}</h3>
+    <h3>Carbohydrates:{{ carbohydrates }}</h3>
+    <h3>Protein:{{ Protein }}</h3>
+    <h3>Sugar:{{ Sugar }}</h3>
+    <h3>Other nutrients:{{ Others }}</h3>
+    <h3 style="color:rgb(60, 2, 89)">Benefits:{{ Tips }}</h3>
+        
+    
+    </div>
+</body>
+</html>
